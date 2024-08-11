@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+
 }
 *{
     box-sizing: border-box;
@@ -9,6 +9,7 @@ body {
 .container{
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 .hero{
     width: 1440px;
